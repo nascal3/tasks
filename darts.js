@@ -2,9 +2,9 @@
 const score = (x, y) => {
 
     // Assign square radius of each circle
-    const innerCircle = Math.pow(1)
-    const middleCircle = Math.pow(5)
-    const outerCircle = Math.pow(10)
+    const innerCircle = Math.pow(1, 2)
+    const middleCircle = Math.pow(5, 2)
+    const outerCircle = Math.pow(10, 2)
 
     // Use the formular to (X sqaured + Y squared = RADIUS sqaured)
     // to determine if point is inside a circle
@@ -21,3 +21,5 @@ const score = (x, y) => {
         return 0
     }
 }
+
+console.log(score(0, 7))
