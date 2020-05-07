@@ -21,5 +21,3 @@ const score = (x, y) => {
         return 0
     }
 }
-
-console.log(score(0, 7))
