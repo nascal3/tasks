@@ -21,3 +21,5 @@ const score = (x, y) => {
         return 0
     }
 }
+
+console.log(score(x, y))
